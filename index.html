@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        height: 200px;
+        width: 245px;
+      }
+      /* @media screen and (min-width: 0px) and (max-width: 425px) {
+        .og,
+        .p2 {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 426px) and (max-width: 768px) {
+        .gc,
+        .p2 {
+          display: none;
+        }
+      }
+      @media screen and (min-width: 769px) {
+        .og,
+        .gc {
+          display: none;
+        }
+      } */
+      @media screen and (orientation: landscape) {
+        body {
+          background-color: cornflowerblue;
+        }
+        .div1 {
+          border: 2px solid green;
+          padding: 25px;
+          background-color: blueviolet;
+        }
+      }
+      @media screen and (orientation: portrait) {
+        body {
+          background-color: rgb(237, 100, 155);
+        }
+        .div1 {
+          border: 2px solid yellowgreen;
+          padding: 25px;
+          background-color: rgb(61, 43, 226);
+        }
+      }
+      .div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+      .p {
+        background-color: white;
+      }
+      body {
+        text-align: center;
+        text-align: justify;
+       
+      }
+      .div1 div {
+        border: 3px solid red;
+      }
+      .cd {
+        width: 250px;
+        /* height: 660px; */
+      }
+      h2{
+        border: 2px solid;
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>FLEX LAYOUT WITH MEDIA QUERIES</h2>
+    <div class="div1">
+      <div class="cd">
+        <div>
+          <img
+            class="gc"
+            src="https://static.toiimg.com/thumb/msid-114171328,width-400,resizemode-4/114171328.jpg"
+            alt=""
+          />
+        </div>
+        <div style="height: 100px; overflow-y: scroll; background-color: white">
+          <p>
+            Konidela Ram Charan(born 27 March 1985) is an Indian actor, film
+            producer, and entrepreneur who primarily works in Telugu cinema. He
+            is one of the highest-paid actors in Indian cinema and has featured
+            in Forbes India's Celebrity 100 list since 2013. Charan is the
+            recipient of several awards, including four Filmfare Awards and two
+            Nandi Awards. Charan made his acting debut with the action film
+            Chirutha (2007), a box office hit, winning the Filmfare Award for
+            Best Male Debut – South. He rose to prominence starring in S. S.
+            Rajamouli's fantasy action film Magadheera (2009), the
+            highest-grossing Telugu film of all time at the time of its release,
+            winning the Filmfare Award for Best Actor – Telugu. He went on to
+            star in notable films such as Orange (2010), Racha (2012), Naayak
+            (2013), Yevadu (2014), Govindudu Andarivadele (2014), and Dhruva
+            (2016).
+          </p>
+        </div>
+        <div class="p" style="text-align: center;">
+          <p>GAME CHANGER</p>
+        </div>
+      </div>
+      <div class="cd">
+        <div>
+          <img
+            class="og"
+            src="https://static.toiimg.com/thumb/msid-112542019,width-1280,height-720,resizemode-4/112542019.jpg"
+            alt=""
+          />
+        </div>
+        <div style="height: 100px; overflow-y: scroll; background-color: white">
+          <p>
+            Konidala Pawan Kalyan (born Konidala Kalyan Kumar;2 September 1971)
+            is an Indian politician, actor and philanthropist serving as the
+            10th Deputy Chief Minister of Andhra Pradesh since June 2024. He is
+            also the Minister of Panchayat Raj, Rural Development and Rural
+            Water Supply; Environment, Forests, Science and Technology in the
+            Government of Andhra Pradesh and an MLA representing the Pitapuram
+            constituency.He is the founder and president of the Janasena Party.
+            As an actor, Kalyan is known for his distinctive style and
+            mannerisms in Telugu cinema. He enjoys a huge fanbase across the
+            Telugu states, often described as "unfathomable," "fiercely loyal,"
+            and akin to a "cult following." He is among the highest-paid actors
+            in Indian cinema and has been featured in Forbes India's Celebrity
+            100 list multiple times since 2012.[13][18] He is the recipient of a
+            Filmfare Award and a SIIMA Award among other accolades.
+          </p>
+        </div>
+        <div class="p" style="text-align: center;">
+          <p>OG</p>
+        </div>
+      </div>
+      <div class="cd">
+        <div>
+          <img
+            class="p2"
+            src="https://bbcdn.bollywoodbubble.com/wp-content/uploads/2024/11/pushpa-2_-the-rule-new-poster.jpg"
+            alt=""
+          />
+        </div>
+        <div style="height: 100px; overflow-y: scroll; background-color: white">
+          <p>
+            Allu Arjun (born 8 April 1982) is an Indian actor who works in
+            Telugu cinema. One of the highest-paid actors in Indian cinema,[1]
+            Allu Arjun has been featured in Forbes India's Celebrity 100 list
+            since 2014.[2] He is a recipient of several awards including a
+            National Film Award, six Filmfare Awards, and three Nandi Awards.[3]
+            He is regarded as one of the finest dancers in Indian cinema.[4] He
+            is popularly referred to as "Stylish Star" and "Icon Star".[5] Allu
+            Arjun made his debut with Gangotri in 2003. He rose to prominence
+            starring in Sukumar's cult classic Arya (2004) for which he earned a
+            Nandi Special Jury Award.[6] He consolidated his reputation with the
+            action films Bunny (2005) and Desamuduru (2007). In 2008, he starred
+            in the romantic drama Parugu for which he won his first Filmfare
+            Award for Best Actor – Telugu.[7]
+          </p>
+        </div>
+        <div class="p" style="text-align: center;">
+          <p>PUSHPA-2 THE RULE</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
